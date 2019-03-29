@@ -115,6 +115,7 @@ nav.navbar{
     font-family: 'Raleway', sans-serif;
     font-weight:300;
 }
+
 .story_year{
 font-family: 'Playfair Display', serif;
 font-size: 200px;
@@ -122,9 +123,11 @@ font-weight: 700;
 z-index: -1;
 position: absolute;
 color: rgba(149, 147, 147, 0.2);
-/* maybe use text-align: center; */
-   /*@media should be able to fix the size issue here*/ 
+text-align: center;
+display: flex;
 }
+
+
 /* Review section */
 #review{
     background-image: url('../img/food_review.jpg');
