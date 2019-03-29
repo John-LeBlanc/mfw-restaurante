@@ -3,6 +3,14 @@
 .navbar-default, #menu .nav li a:hover, .btn-primary{
 border-color: transparent;
 }
+.container-fluid{
+    padding: 0;
+    margin: 0;
+}
+
+#our_story, #review, #menu, #contact {
+    min-height: 600px;
+}
 /*NAVBAR*/
 .nav li a:hover{
     background-color: transparent;
@@ -56,13 +64,13 @@ nav.navbar{
 
 .carousel-inner .item{
     width: 100%;
-    height: 600px;
+    height: 100vh;
     background-size: cover;
     background-position: center;
 }
 
 .main_img1 {
-    background-image:url('../img/wood-2.jpg');
+    background-image: url('../img/wood-2.jpg');
 }
 
 .main_img2 {
@@ -89,9 +97,7 @@ nav.navbar{
 
 /* OUR STORY section */
 
-#our_story, #review, #menu {
-    min-height: 600px;
-}
+
 
 #our_story .row{
     margin-top: 30px;
@@ -204,4 +210,52 @@ text-shadow: 1px 1px 5px #0a0a0a;
 
 #menu .nav-tabs li a {
     border: none;
+}
+/* end Menu */
+/* CONTACT  */
+
+.contact_form {
+    background-color: #ff6633;
+    color: #fff;
+    border: 1px solid #fff
+}
+.contact_form form{
+    padding: 5% 0;
+}
+
+.contact_form span{
+    color: #ff0d06;
+}
+
+#contact{
+    background-color: #f8512f;
+}
+
+#contact h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    color: #fff;
+    font-size: 4em;
+}
+
+#contact p{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    color: #fff;
+    font-size: 1em;
+}
+
+#contact_fine_print{
+    font-size: 12px !important;
+    text-align: center;
+}
+
+address{
+    color: #fff;
+    font-family: 'Raleway', Sans-serif;
+    font-weight: 300;
+}
+.contact_bottom{
+    margin-top: 50px;
+    margin-bottom: 25px;
 }
